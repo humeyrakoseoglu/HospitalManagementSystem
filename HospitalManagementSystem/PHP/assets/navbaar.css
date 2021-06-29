@@ -1,0 +1,25 @@
+/*BAR*/
+ 
+.top-bar{
+    background-color: #3d5654;
+    color:white ;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 12px 1px rgba(0,0,0,.50);
+}
+.logo{
+    font-size: 1rem;
+    padding: 0.8rem 0.8rem;
+    font-weight: 700;
+    flex-grow: 1.5;
+    transition:all .75s;
+    text-align: center;
+}
+
+.logo a{
+    color:white ;
+    text-decoration: none;
+ }
+ .logo a h5{
+     text-align: center;
+ }

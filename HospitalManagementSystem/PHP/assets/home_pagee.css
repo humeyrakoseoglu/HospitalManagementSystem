@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Jura', sans-serif;
+}
+.header{
+    background-color: #3d5654;
+    padding: 1.5em;
+}
+.header-title{
+    color: white;
+}
+.users{
+    display: flex;
+    padding:4%;
+    justify-content:center;
+    text-align:center;
+    color: white;
+}
+.user{
+    padding: 5%;
+}
+
+.user p{
+    font-size:1.3rem;
+    padding: 3%;
+}
+.user:hover {
+    transform: translateY(0.75%);
+    background-color: #3d5654;
+}
